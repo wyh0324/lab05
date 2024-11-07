@@ -22,7 +22,7 @@ defineProps<{
       class="event-link"
       :to="{ name: 'event-detail-view', params: { id: event.id } }"
     ></RouterLink>
-    <div class="event-card">
+    <div class="cursor-pointer border border-gray-600 p-4 w-64 mb-6 hover:scale-101 hover:shadow-sp">
       <div class="category">
         <div class="organizer">
           <h2>{{ event.title }}</h2>
