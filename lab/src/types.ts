@@ -33,3 +33,15 @@ export interface EventState {
 }
 
 export type Data = PassengerData
+export interface Event {
+  id: number
+  category: string
+  title: string
+  description: string
+  location: string
+  date: string
+  time: string
+  petsAllowed: boolean
+  organizer: string
+}
+
