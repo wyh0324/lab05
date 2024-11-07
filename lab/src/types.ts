@@ -44,4 +44,3 @@ export interface Event {
   petsAllowed: boolean
   organizer: string
 }
-
